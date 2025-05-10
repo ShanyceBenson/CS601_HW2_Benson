@@ -10,5 +10,81 @@
   },
   "devDependencies": {
     "vite": "^6.3.5"
-  }
+  },
+
+  "movies": [
+      {
+        "id": 1,
+        "name": "Friday",
+        "category": "Movie",
+        "year": 1995,
+        "genre": "Comedy"
+      },
+      {
+        "id": 2,
+        "name": "Boomerang",
+        "category": "Movie",
+        "year": 1992,
+        "genre": "Comedy"
+      },
+      {
+        "id": 3,
+        "name": "Brown Sugar",
+        "category": "Movie",
+        "year": 2002,
+        "genre": "Romantic Comedy"
+      },
+      {
+        "id": 4,
+        "name": "Bad Boys",
+        "category": "Movie",
+        "year": 1995,
+        "genre": "Acton Comedy"
+      },
+      {
+        "id": 5,
+        "name": "House Party",
+        "category": "Movie",
+        "year": 1991,
+        "genre": "Comedy"
+      }
+    ],
+
+    "sitcoms": [
+      {
+        "id": 6,
+        "name": "Family Matters",
+        "category": "Sitcoms",
+        "year": 1989,
+        "genre": "Comedy"
+      },
+      {
+        "id": 7,
+        "name": "In the House",
+        "category": "Sitcom",
+        "year": 1995,
+        "genre": "Comedy"
+      },
+      {
+        "id": 8,
+        "name": "Sister Sister",
+        "category": "Sitcom",
+        "year": 1994,
+        "genre": "Comedy"
+      },
+      {
+        "id": 9,
+        "name": "Fresh Prince",
+        "category": "Sitcom",
+        "year": 1990,
+        "genre": "Comedy"
+      },
+      {
+        "id": 18,
+        "name": "Hangin with Mr Cooper",
+        "category": "Sitcom",
+        "year": 1992,
+        "genre": "Comedy"
+      }
+    ]
 }
