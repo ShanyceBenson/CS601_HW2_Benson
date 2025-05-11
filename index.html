@@ -1,15 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/script.js" defer></script>
     <title>CS601_HW2_Benson</title>
   </head>
   <body>
-    <div></div>
-    
+    <div class="container">
+      <div class="left-panel">
+        <h2>Movie or Sitcom?</h2>
+        <div id="item-list" class="list-container"></div>
+      </div>
+
+      <div class="right-panel">
+        <div class="drop-section">
+          <h2>Movies</h2>
+          <div id="movie-zone" class="drop-zone"></div>
+        </div>
+
+        <div class="drop-section">
+          <h2>Sitcoms</h2>
+          <div id="sitcom-zone" class="drop-zone"></div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <button id="reset-btn">Reset</button>
+    </div>
   </body>
 </html>
